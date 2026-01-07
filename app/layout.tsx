@@ -2,7 +2,6 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Geist } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
-// @ts-expect-error CSS import
 import "./globals.css"
 
 const geist = Geist({ subsets: ["latin"] })
